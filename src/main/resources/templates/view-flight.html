@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title th:text="'Detail Penerbangan'"></title>
+	</head>
+	<body>
+		<h3 th:text="'Pilot License Number: '+${flight.pilot.licenseNumber}"></h3>
+		<h3 th:text="'Name: '+${flight.pilot.name}"></h3>
+		<br>
+		<h3 th:text="'Origin: '+${flight.origin}"></h3>
+		<h3 th:text="'Destination: '+${flight.destination}"></h3>
+		<h3 th:text="'Time '+${flight.time}"></h3>
+		<br>
+		<a th:href="@{'/flight/edit/'+${flight.pilot.licenseNumber}+'/'+${flight.id}}">Edit flight ini</a>
+		<br><br>
+		<a th:href="@{'/flight/delete/'+${flight.id}}">Delete flight ini</a>
+	</body>
+</html>

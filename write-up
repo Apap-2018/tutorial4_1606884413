@@ -1,0 +1,12 @@
+Wikan Setiaji
+1606884413
+APAP C
+
+1. 	Daftar flight dapat di lihat di detail pilot (yang dapat diakses dari "/pilot/view/{licenseNumber") atau dari search pilot
+2. 	Fitur delete pilot dapat diakses dari halaman detail pilot atau menggunakan url "/pilot/delete/{licenseNumber}". 
+	Fitur delete flight dapat diakses dari halaman detail flight atau url "/flight/delete/{flightId}".
+3. 	Fitur update pilot dapat diakses dari halaman detail pilot atau menggunakan url "/pilot/edit/{licenseNumber}". 
+	Fitur update flight dapat diakses dari halaman detail flight atau url "/flight/delete/{pilotLicenseNumber}/{flightId}"
+4. 	Detail flight dapat dilihat dari halaman detail pilot atau menggunakan url "/pilot/edit/{licenseNumber}"
+
+Error handling tidak dibuat karena tidak ada di perintah soal
